@@ -2,7 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Star, Heart } from 'lucide-react';
 import { useState } from 'react';
 import { useMovieDetail, useSimilarMovies } from '../hooks/useMovies';
-import { getPosterUrl, getBackdropUrl } from '../api/client';
+import { getPosterUrl,  } from '../api/client';
 import MovieCard from '../components/movie/MovieCard';
 import SkeletonCard from '../components/movie/SkeletonCard';
 

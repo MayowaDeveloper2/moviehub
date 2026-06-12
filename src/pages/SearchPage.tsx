@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { Search, X, SlidersHorizontal } from 'lucide-react';
 import { useDebounce } from '../hooks/useDebounce';
