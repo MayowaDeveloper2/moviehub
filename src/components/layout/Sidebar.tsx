@@ -12,7 +12,7 @@ const navItems = [
 export default function Sidebar() {
   return (
     <aside className="w-[220px] min-h-screen bg-white border-r border-gray-100 flex flex-col flex-shrink-0">
-      {/* Logo */}
+      {/* Logos */}
       <div className="flex items-center gap-3 px-5 py-5 border-b border-gray-100">
         <div className="w-9 h-9 bg-primary rounded-xl flex items-center justify-center">
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none">

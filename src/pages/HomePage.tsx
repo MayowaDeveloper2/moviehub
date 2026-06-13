@@ -1,3 +1,4 @@
+import TopBar from '../components/layout/TopBar';
 import MovieRow from '../components/movie/MovieRow';
 import { useNowPlaying, usePopularMovies, useTopRatedMovies } from '../hooks/useMovies';
 
@@ -8,6 +9,7 @@ export default function HomePage() {
 
   return (
     <div className="px-7 py-7 space-y-8">
+      <TopBar />
       {/* Header */}
       <div>
         <h1 className="text-2xl font-bold text-gray-900">Discover Movies</h1>

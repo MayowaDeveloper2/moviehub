@@ -63,7 +63,7 @@ export default function MovieDetailPage() {
   const posterUrl = getPosterUrl(movie.poster_path, 'w500');
   const year = movie.release_date ? new Date(movie.release_date).getFullYear() : '—';
   const rating = movie.vote_average.toFixed(1);
-  const certification = 'PG-13'; // TMDB requires separate release_dates call; using placeholder
+  const certification = 'PG-13'; 
 
   const director = movie.credits?.crew.find((c) => c.job === 'Director');
   const topCast = movie.credits?.cast.slice(0, 5).map((c) => c.name).join(', ');
